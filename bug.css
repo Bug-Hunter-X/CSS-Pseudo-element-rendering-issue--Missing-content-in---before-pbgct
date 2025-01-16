@@ -1,0 +1,7 @@
+The following CSS rule attempts to use a pseudo-element selector (::before) without specifying content. This will result in the pseudo-element not being rendered.
+
+```css
+div::before {
+  border: 1px solid black;
+}
+```
