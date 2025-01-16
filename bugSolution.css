@@ -1,0 +1,10 @@
+To fix this, ensure you provide content for the pseudo-element using the `content` property.  Here's the corrected CSS:
+
+```css
+div::before {
+  content: ''; /* or content: "Some text"; */
+  border: 1px solid black;
+}
+```
+
+Adding `content: '';` (or any other content) makes the pseudo-element visible and allows the border to be applied.
